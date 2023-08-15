@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Simple Tailwind Starter</title>
+  </head>
+  <body>
+    <!-- Global Container -->
+    <div class="flex items-center justify-center min-h-screen bg-slate-100">
+      <!-- Modal Container -->
+      <div
+        class="flex items-center flex-col p-8 mx-3 shadow-2xl rounded-xl md:flex-row bg-white p-5 space-y-10 md:space-y-0 md:space-x-16 md:p-20"
+      >
+        <!-- Image -->
+        <img src="images/headphone.png" alt="" class="w-60 md:self-start" />
+        <!-- Content -->
+        <div
+          class="flex flex-col text-center items-center md:items-start space-y-4"
+        >
+          <p class="bg-black text-white rounded-3xl py-1 px-3">Free Shipping</p>
+          <h2 class="text-2xl font-semibold max-w-sm md:text-left">
+            Razer Kraken Kitty Edt Gaming Headset Quartz
+          </h2>
+          <p class="line-through">$799</p>
+          <h1 class="text-5xl font-bold">$599</h1>
+          <p class="text-gray-400 text-sm">
+            This offer is valid until April 3rd or as long as stock lasts!
+          </p>
+          <div
+            class="bg-blue-800 h-16 w-full rounded-lg pb-2 hover:pb-0 hover:shadow-lg"
+          >
+            <button
+              class="bg-blue-500 w-full h-full rounded-lg text-white hover:bg-blue-800 duration-300"
+            >
+              Add to card
+            </button>
+          </div>
+          <div class="flex items-center self-start space-x-3 group">
+            <div
+              class="w-3 h-3 bg-green-400 rounded-full group-hover:animate-ping"
+            ></div>
+            <div class="text-sm">50+ pcs. in stock</div>
+          </div>
+          <div
+            class="w-full flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4"
+          >
+            <button
+              class="border-2 py-3 flex justify-center items-center space-x-3 rounded-lg hover:shadow-xl hover:-translate-y-1 duration-300 md:px-5"
+            >
+              <img src="images/weight.png" alt="" class="inline w-8" />
+              <span class="">Add to card</span>
+            </button>
+            <button
+              class="border-2 py-3 flex justify-center items-center space-x-3 rounded-lg hover:shadow-xl hover:-translate-y-1 duration-300 md:px-5"
+            >
+              <img src="images/heart.png" alt="" class="inline w-8" />
+              <span>Add to wishlist</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
